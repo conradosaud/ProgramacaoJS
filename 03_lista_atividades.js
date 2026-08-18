@@ -7,7 +7,15 @@ Desenhe no terminal um retângulo usando apenas o comando do console.log
 |     |
 |     |
 |_____|
+*/
 
+console.log("    _")
+console.log("   / \\")
+console.log("  /   \\")
+console.log(" /  O  \\")
+console.log("/_______\\")
+
+/*
 ### ----- Atividade 1:
 
 Crie uma variável chamada `cidade` e outra chamada `estado`.
@@ -16,6 +24,10 @@ Mostre na tela a frase: "Eu moro em X - Y"
 Substitua X pelo valor da variável `cidade` e Y pelo valor da variável `estado`.
 
 */
+
+let cidade = "São Carlos"
+let estado = "SP"
+console.log("Eu moro em "+cidade+" - "+estado)
 
 /*
 ### ----- Atividade 2:
@@ -29,6 +41,11 @@ Mostre o resultado da soma na tela.
 
 */
 
+let numero1 =  5
+let numero2 = 3
+let soma = numero1 + numero2
+console.log("O resultado é: "+soma)
+
 
 /*
 ### ----- Atividade 3:
@@ -39,6 +56,10 @@ Mostre na tela a mensagem: "Olá, você tem X anos e daqui a 10 anos terá Y."
 Substitua X pelo valor da idade atual e Y pela idade que a pessoa terá daqui a 10 anos.
 
 */
+
+let idade = 30
+let idade_futuro = idade + 10
+console.log("Olá, você tem "+idade+" anos e daqui a 10 anos terá "+idade_futuro+".")
 
 /*
 ### ----- Atividade 4:
@@ -52,6 +73,10 @@ Mostre na tela o número original, seu dobro e seu triplo.
 
 */
 
+let numero = 5
+let dobro = numero * 2
+let triplo = numero * 3
+
 /*
 ### ----- Atividade 5:
 
@@ -61,6 +86,17 @@ Mostre na tela o nome e o preço de cada produto individualmente.
 Em seguida, calcule e mostre o valor total dos dois produtos.
 
 */
+
+let produto1 = "Chinelo"
+let preco1 = 29.90
+let produto2 = "Tênis"
+let preco2 = 190.90
+let total = preco1 + preco2
+
+console.log("O preço de "+produto1+" é R$ "+preco1)
+console.log("O preço de "+produto2+" é R$ "+preco2)
+console.log("O total é: R$ "+soma)
+
 
 /*
 ### ----- Atividade 6:
@@ -73,6 +109,11 @@ Calcule o novo salário e armazene o resultado em uma nova variável.
 Mostre na tela o salário atual e o novo salário.
 
 */
+
+let salario = 2500
+let aumento = 500
+let inss = 250
+let total_salario = salario + aumento - inss
 
 /*
 ### ----- Atividade 7:
@@ -122,7 +163,11 @@ Exemplo:
 
 */
 
+let horas = 2
+let minutos = 2 * 60
+let segundos = horas * 3600
 
+console.clear()
 /*
 ### ----- Atividade 11:
 
@@ -134,6 +179,14 @@ e que o valor original da segunda variável seja armazenado na primeira variáve
 Ao final, mostre o valor das duas variáveis na tela.
 
 */
+
+let valor1 = "Groselha"
+let valor2 = 99
+let auxiliar = valor1
+valor1 = valor2
+valor2 = auxiliar
+
+console.log("A variável 1 é : "+valor1+" e a variável 2 é "+valor2)
 
 /*
 ### ----- Atividade 12:
